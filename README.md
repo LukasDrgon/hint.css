@@ -40,6 +40,14 @@ or
 <link rel="stylesheet" href="hint.min.css"></link>
 ```
 
+Or include it via CDN
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.css">
+<!-- or -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css">
+```
+
 Now, all you need to do is give your element any position class and tooltip text using the `aria-label` attribute.
 Note, if you don't want to use `aria-label` attribute, you can also specify the tooltip text using the `data-hint` attribute, but its recommended to use `aria-label` in support of accessibility. [Read more about aria-label](https://webaccessibility.withgoogle.com/unit?unit=6&lesson=10).
 
